@@ -81,7 +81,7 @@ class Presenter extends UseCaseOutputPort {      /**/                           
  *    la informacion, atraviesa el LIMITE#1, pero sin forzar a que las clases de alto nivel, dependan de las clases de bajo nivel
  * 4) el control de flujo es iniciado por la clase Controller.
  *
- *    De los 3 puntos anteriores, podemos concluir que se cumple el principio de inversion de dependencias:
+ *    De los 3 primeros puntos anteriores, podemos concluir que se cumple el principio de inversion de dependencias:
  *    los modulos de alto nivel (UseCaseInteractor) no deben depender de los modulos de bajo nivel
  *    (Controller y Presenter), ambos deben depender de las abstracciones (UseCaseInportPort y UseCaseOutputPort)
  *    y las abstracciones no deben depender de los detalles (Controller y Presenter)
