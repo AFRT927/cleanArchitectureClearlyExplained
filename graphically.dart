@@ -3,7 +3,7 @@
 //----Clases de bajo nivel(cerca al detalle)-----/**/---------------------------Clases de alto nivel (mas cerca de las entidades)-------------------------------------/**/--------------------Clases de altisimo nivel escritas en Dart puro---------------- 
                                                  /**/                                                                                                                 /**/ 
                                                  /**/                                                                                                                 /**/ 
- //_____________<Implementacion>______________   /**/                                                                                                                 /**/
+ //_____________<Clase Concreta>______________   /**/                                                                                                                 /**/
  // import 'UseCaseInputPort';                   /**/                                                                                                                 /**/
  class Controller {                              /**/                                                                                                                 /**/
   /**                                            /**/                                                                                                                 /**/
@@ -99,5 +99,5 @@ void main() {
   UseCaseInputPort  input1 =  UseCaseInteractor(outputUseCase: output1);
   Controller controller1 = Controller(inputUseCase: input1);
   controller1.startFlow();
-  
+
 }
